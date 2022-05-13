@@ -3,7 +3,14 @@ module.exports = {
     'public/index.html'
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "blue-gray": "#45567D"
+      },
+      gridTemplateRow: {
+        'layout': 'repeat(5, minmax(auto, 1fr))'
+      }
+    },
   },
   plugins: [],
 }

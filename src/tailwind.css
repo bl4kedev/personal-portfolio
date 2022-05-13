@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .card {
+        @apply
+            w-full
+    }
+
+    .card--img {
+        @apply
+            w-full
+    }
+
+    .card--p {
+        @apply
+            text-white
+            text-center
+            text-xl
+            bg-slate-800
+            rounded-b-sm
+            py-5
+    }
+}
