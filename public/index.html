@@ -11,8 +11,8 @@
 <body>
 
     <!-- HEADER -->
-    <header class="w-full h-16 bg-red-600 fixed">
-        <nav class="text-white text-xl h-full w-full">
+    <header class="w-full h-16 bg-red-600 fixed sm:flex sm:justify-end">
+        <nav class="text-white text-xl h-full w-full sm:w-3/6">
             <ul class="h-full w-full flex items-center justify-center">
                 <li><a href="#" class="m-5">About</a></li>
                 <li><a href="#" class="m-5">Work</a></li>
@@ -35,7 +35,7 @@
             <h2 class="text-white text-4xl text-center font-bold mb-2">These are some of my porjects</h2>
             <hr>
         </div>
-        <div class="my-10 grid grid-rows-layout gap-y-10 h-fit">
+        <div class="my-10 grid grid-rows-layout gap-y-10 h-fit sm:grid-rows-layout-sm sm:grid-cols-layout-sm sm:gap-10">
             <a class="card">
                 <img class="card--img" src="./imgs/tribute.jpg" alt="">
                 <p class="card--p">Tribute page</p>
@@ -68,8 +68,8 @@
     </section>
     <hr class="border-2 border-red-600">
     <!-- FOOTER SECTION -->
-    <footer class="w-full p-8 bg-slate-700 text-white text-center text-sm">
-        <p class="mb-8">**This is just a fake portfolio. All the projects and contact details given are not real.</p>
+    <footer class="w-full p-8 bg-slate-700 text-white text-center text-sm sm:flex">
+        <p class="mb-8 sm:mb-0">**This is just a fake portfolio. All the projects and contact details given are not real.</p>
         <p><a href="#">© Created for freeCodeCamp</a></p>
     </footer>
     
